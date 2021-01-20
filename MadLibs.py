@@ -19,8 +19,8 @@ def delete_spaces(words_list):
     """Cleans up blank spaces from your list"""
     for line in words_list:
         if line == "":
-            words_list.remove(n)
-    return list
+            words_list.remove(line)
+    return words_list
 
 
 # Download text files of words for madlib
