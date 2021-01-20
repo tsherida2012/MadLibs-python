@@ -8,7 +8,7 @@ a file to create a madlib sentence
 REQUIREMENTS
 ------------
 
-This module requires the random
+Only additional module random used
 created using python 3.9
 used linux shell to create this CLI
 
