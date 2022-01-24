@@ -1,7 +1,7 @@
 from random import choice
 
 
-def Read_File(file):
+def read_file(file):
     """open a file and run a listmaking function on it"""
     with open(file, "r+") as file_handle:
         return make_list(file_handle)
@@ -24,10 +24,10 @@ def delete_spaces(words_list):
 
 
 # Download text files of words for madlib
-interjections_list = Read_File("interjections.txt")
-adjectives_list = Read_File("adjectives.txt")
-nouns_list = Read_File("nouns.txt")
-verbs_list = Read_File("adverbs.txt")
+interjections_list = read_file("interjections.txt")
+adjectives_list = read_file("adjectives.txt")
+nouns_list = read_file("nouns.txt")
+verbs_list = read_file("adverbs.txt")
 
 # Pick random words out of word type list to make
 # Madlibs sentence
